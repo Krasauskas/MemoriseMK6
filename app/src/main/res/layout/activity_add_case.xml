@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vytautaskrasauskas.memorisemk6.AddCaseActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/caseCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="Case Category" />
+
+        <EditText
+            android:id="@+id/caseName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="Case Name" />
+
+        <EditText
+            android:id="@+id/caseYear"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="Case Year" />
+
+        <EditText
+            android:id="@+id/caseRuling"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="Case Ruling" />
+
+        <EditText
+            android:id="@+id/caseFacts"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="Case Facts" />
+
+        <EditText
+            android:id="@+id/caseIssues"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="Case Issues" />
+
+        <Button
+            android:id="@+id/buttonAddCase"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#1E9D96"
+            android:text="Add Case"
+            android:textColor="@android:color/background_light"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

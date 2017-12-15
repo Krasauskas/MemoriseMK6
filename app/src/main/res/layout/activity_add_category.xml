@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vytautaskrasauskas.memorisemk6.AddCategoryActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="171dp">
+
+        <EditText
+            android:id="@+id/categoryName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="Category Name" />
+
+        <!--<EditText-->
+        <!--android:id="@+id/categoryColour"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:ems="10"-->
+        <!--android:hint="Category Colour" />-->
+
+        <Button
+            android:id="@+id/buttonAddCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#1E9D96"
+            android:text="Add Category"
+            android:textColor="@android:color/background_light"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/buttonNukeDB"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#FF0000"
+            android:text="Nuke DB"
+            android:textColor="@android:color/background_light"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

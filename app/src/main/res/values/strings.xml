@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MemoriseMK6</string>
+    <string name="title_activity_add_category">AddCategoryActivity</string>
+</resources>
